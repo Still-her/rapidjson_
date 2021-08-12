@@ -1,0 +1,552 @@
+{
+  "eventSubscriptions": [
+    {
+      "anySlice": true,
+      "appIds": [
+        "string"
+      ],
+      "dnns": [
+        "string"
+      ],
+      "dnais": [
+        "string"
+      ],
+	  "event": [
+        "UE_MOBILITY"
+      ],
+      "extraReportReq": {
+        "startTs": "2021-06-28T08:16:25.171Z",
+        "endTs": "2021-06-28T08:16:25.171Z",
+        "sampRatio": 0,
+        "maxObjectNbr": 0,
+        "maxSupiNbr": 0,
+        "timeAnaNeeded": "2021-06-28T08:16:25.171Z"
+      },
+      "loadLevelThreshold": 0,
+      "nfLoadLvlThds": [
+        {
+          "congLevel": 0,
+          "nfLoadLevel": 0,
+          "nfCpuUsage": 0,
+          "nfMemoryUsage": 0,
+          "nfStorageUsage": 0
+        }
+      ],
+      "nfInstanceIds": [
+        "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      ],
+      "nfSetIds": [
+        "string"
+      ],
+      "nfTypes": [
+        "NRF",
+        "string"
+      ],
+      "networkArea": {
+        "ecgis": [
+          {
+            "plmnId": {
+              "mcc": "string",
+              "mnc": "string"
+            },
+            "eutraCellId": "string",
+            "nid": "string"
+          }
+        ],
+        "ncgis": [
+          {
+            "plmnId": {
+              "mcc": "string",
+              "mnc": "string"
+            },
+            "nrCellId": "string",
+            "nid": "string"
+          }
+        ],
+        "gRanNodeIds": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "tais": [
+          {
+            "plmnId": {
+              "mcc": "string",
+              "mnc": "string"
+            },
+            "tac": "string",
+            "nid": "string"
+          }
+        ]
+      },
+      "nsiIdInfos": [
+        {
+          "snssai": {
+            "sst": 0,
+            "sd": "string"
+          },
+          "nsiIds": [
+            "string"
+          ]
+        }
+      ],
+      "nsiLevelThrds": [
+        0
+      ],
+      "qosRequ": {
+        "5qi": 0,
+        "gfbrUl": "string",
+        "gfbrDl": "string",
+        "pdb": 0,
+        "per": "string"
+      },
+      "qosFlowRetThds": [
+        {
+          "relFlowNum": 0,
+          "relFlowRatio": 0
+        }
+      ],
+      "ranUeThrouThds": [
+        "string"
+      ],
+      "repetitionPeriod": 0,
+      "snssaia": [
+        {
+          "sst": 0,
+          "sd": "string"
+        }
+      ],
+      "tgtUe": {
+        "anyUe": true,
+        "supis": [
+          "string"
+        ],
+        "intGroupIds": [
+          "string"
+        ]
+      },
+      "congThresholds": [
+        {
+          "congLevel": 0,
+          "nfLoadLevel": 0,
+          "nfCpuUsage": 0,
+          "nfMemoryUsage": 0,
+          "nfStorageUsage": 0
+        }
+      ],
+      "nwPerfRequs": [
+        {
+          "relativeRatio": 0,
+          "absoluteNum": 0
+        }
+      ],
+      "bwRequs": [
+        {
+          "appId": "string",
+          "marBwDl": "string",
+          "marBwUl": "string",
+          "mirBwDl": "string",
+          "mirBwUl": "string"
+        }
+      ],
+      "excepRequs": [
+        {
+          "excepLevel": 0
+        }
+      ],
+      "exptUeBehav": {
+        "communicationDurationTime": 0,
+        "periodicTime": 0,
+        "scheduledCommunicationTime": {
+          "daysOfWeek": [
+            0
+          ],
+          "timeOfDayStart": "string",
+          "timeOfDayEnd": "string"
+        },
+        "expectedUmts": [
+          {
+            "geographicAreas": [
+              {
+                "point": {
+                  "lon": 0,
+                  "lat": 0
+                }
+              }
+            ],
+            "civicAddresses": [
+              {
+                "country": "string",
+                "A1": "string",
+                "A2": "string",
+                "A3": "string",
+                "A4": "string",
+                "A5": "string",
+                "A6": "string",
+                "PRD": "string",
+                "POD": "string",
+                "STS": "string",
+                "HNO": "string",
+                "HNS": "string",
+                "LMK": "string",
+                "LOC": "string",
+                "NAM": "string",
+                "PC": "string",
+                "BLD": "string",
+                "UNIT": "string",
+                "FLR": "string",
+                "ROOM": "string",
+                "PLC": "string",
+                "PCN": "string",
+                "POBOX": "string",
+                "ADDCODE": "string",
+                "SEAT": "string",
+                "RD": "string",
+                "RDSEC": "string",
+                "RDBR": "string",
+                "RDSUBBR": "string",
+                "PRM": "string",
+                "POM": "string",
+                "usageRules": "string",
+                "method": "string",
+                "providedBy": "string"
+              }
+            ],
+            "nwAreaInfo": {
+              "ecgis": [
+                {
+                  "plmnId": {
+                    "mcc": "string",
+                    "mnc": "string"
+                  },
+                  "eutraCellId": "string",
+                  "nid": "string"
+                }
+              ],
+              "ncgis": [
+                {
+                  "plmnId": {
+                    "mcc": "string",
+                    "mnc": "string"
+                  },
+                  "nrCellId": "string",
+                  "nid": "string"
+                }
+              ],
+              "gRanNodeIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "tais": [
+                {
+                  "plmnId": {
+                    "mcc": "string",
+                    "mnc": "string"
+                  },
+                  "tac": "string",
+                  "nid": "string"
+                }
+              ]
+            },
+            "umtTime": {
+              "timeOfDay": "string",
+              "dayOfWeek": 0
+            }
+          }
+        ],
+        "batteryIndication": {
+          "batteryInd": true,
+          "replaceableInd": true,
+          "rechargeableInd": true
+        },
+        "validityTime": "2021-06-28T08:16:25.171Z"
+      }
+    },
+	    {
+      "anySlice": true,
+      "appIds": [
+        "string"
+      ],
+      "dnns": [
+        "string"
+      ],
+      "dnais": [
+        "string"
+      ],
+	  "event": [
+        "UE_MOBILITY"
+      ],
+      "extraReportReq": {
+        "startTs": "2021-06-28T08:16:25.171Z",
+        "endTs": "2021-06-28T08:16:25.171Z",
+        "sampRatio": 0,
+        "maxObjectNbr": 0,
+        "maxSupiNbr": 0,
+        "timeAnaNeeded": "2021-06-28T08:16:25.171Z"
+      },
+      "loadLevelThreshold": 0,
+      "nfLoadLvlThds": [
+        {
+          "congLevel": 0,
+          "nfLoadLevel": 0,
+          "nfCpuUsage": 0,
+          "nfMemoryUsage": 0,
+          "nfStorageUsage": 0
+        }
+      ],
+      "nfInstanceIds": [
+        "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      ],
+      "nfSetIds": [
+        "string"
+      ],
+      "nfTypes": [
+        "NRF",
+        "string"
+      ],
+      "networkArea": {
+        "ecgis": [
+          {
+            "plmnId": {
+              "mcc": "string",
+              "mnc": "string"
+            },
+            "eutraCellId": "string",
+            "nid": "string"
+          }
+        ],
+        "ncgis": [
+          {
+            "plmnId": {
+              "mcc": "string",
+              "mnc": "string"
+            },
+            "nrCellId": "string",
+            "nid": "string"
+          }
+        ],
+        "gRanNodeIds": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "tais": [
+          {
+            "plmnId": {
+              "mcc": "string",
+              "mnc": "string"
+            },
+            "tac": "string",
+            "nid": "string"
+          }
+        ]
+      },
+      "nsiIdInfos": [
+        {
+          "snssai": {
+            "sst": 0,
+            "sd": "string"
+          },
+          "nsiIds": [
+            "string"
+          ]
+        }
+      ],
+      "nsiLevelThrds": [
+        0
+      ],
+      "qosRequ": {
+        "5qi": 0,
+        "gfbrUl": "string",
+        "gfbrDl": "string",
+        "pdb": 0,
+        "per": "string"
+      },
+      "qosFlowRetThds": [
+        {
+          "relFlowNum": 0,
+          "relFlowRatio": 0
+        }
+      ],
+      "ranUeThrouThds": [
+        "string"
+      ],
+      "repetitionPeriod": 0,
+      "snssaia": [
+        {
+          "sst": 0,
+          "sd": "string"
+        }
+      ],
+      "tgtUe": {
+        "anyUe": true,
+        "supis": [
+          "string"
+        ],
+        "intGroupIds": [
+          "string"
+        ]
+      },
+      "congThresholds": [
+        {
+          "congLevel": 0,
+          "nfLoadLevel": 0,
+          "nfCpuUsage": 0,
+          "nfMemoryUsage": 0,
+          "nfStorageUsage": 0
+        }
+      ],
+      "nwPerfRequs": [
+        {
+          "relativeRatio": 0,
+          "absoluteNum": 0
+        }
+      ],
+      "bwRequs": [
+        {
+          "appId": "string",
+          "marBwDl": "string",
+          "marBwUl": "string",
+          "mirBwDl": "string",
+          "mirBwUl": "string"
+        }
+      ],
+      "excepRequs": [
+        {
+          "excepLevel": 0
+        }
+      ],
+      "exptUeBehav": {
+        "communicationDurationTime": 0,
+        "periodicTime": 0,
+        "scheduledCommunicationTime": {
+          "daysOfWeek": [
+            0
+          ],
+          "timeOfDayStart": "string",
+          "timeOfDayEnd": "string"
+        },
+        "expectedUmts": [
+          {
+            "geographicAreas": [
+              {
+                "point": {
+                  "lon": 0,
+                  "lat": 0
+                }
+              }
+            ],
+            "civicAddresses": [
+              {
+                "country": "string",
+                "A1": "string",
+                "A2": "string",
+                "A3": "string",
+                "A4": "string",
+                "A5": "string",
+                "A6": "string",
+                "PRD": "string",
+                "POD": "string",
+                "STS": "string",
+                "HNO": "string",
+                "HNS": "string",
+                "LMK": "string",
+                "LOC": "string",
+                "NAM": "string",
+                "PC": "string",
+                "BLD": "string",
+                "UNIT": "string",
+                "FLR": "string",
+                "ROOM": "string",
+                "PLC": "string",
+                "PCN": "string",
+                "POBOX": "string",
+                "ADDCODE": "string",
+                "SEAT": "string",
+                "RD": "string",
+                "RDSEC": "string",
+                "RDBR": "string",
+                "RDSUBBR": "string",
+                "PRM": "string",
+                "POM": "string",
+                "usageRules": "string",
+                "method": "string",
+                "providedBy": "string"
+              }
+            ],
+            "nwAreaInfo": {
+              "ecgis": [
+                {
+                  "plmnId": {
+                    "mcc": "string",
+                    "mnc": "string"
+                  },
+                  "eutraCellId": "string",
+                  "nid": "string"
+                }
+              ],
+              "ncgis": [
+                {
+                  "plmnId": {
+                    "mcc": "string",
+                    "mnc": "string"
+                  },
+                  "nrCellId": "string",
+                  "nid": "string"
+                }
+              ],
+              "gRanNodeIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "tais": [
+                {
+                  "plmnId": {
+                    "mcc": "string",
+                    "mnc": "string"
+                  },
+                  "tac": "string",
+                  "nid": "string"
+                }
+              ]
+            },
+            "umtTime": {
+              "timeOfDay": "string",
+              "dayOfWeek": 0
+            }
+          }
+        ],
+        "batteryIndication": {
+          "batteryInd": true,
+          "replaceableInd": true,
+          "rechargeableInd": true
+        },
+        "validityTime": "2021-06-28T08:16:25.171Z"
+      }
+    }
+	],
+	"evtReq": {
+    "immRep": true,
+    "maxReportNbr": 0,
+    "monDur": "2021-06-30T03:32:39.625Z",
+    "repPeriod": 0,
+    "sampRatio": 0,
+    "grpRepTime": 0
+  },
+  "notificationURI": "string",
+  "notifId": "string"
+}
